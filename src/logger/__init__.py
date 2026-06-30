@@ -24,7 +24,7 @@ def configure_logger():
     """
     # Create a custom logger
     logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     
     # Define formatter
     formatter = logging.Formatter("[ %(asctime)s ] %(name)s - %(levelname)s - %(message)s")
